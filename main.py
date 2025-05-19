@@ -1,7 +1,6 @@
-# This entrypoint file to be used in development. Start by reading README.md
-import mean_var_std
-from unittest import main
+from mean_var_std import calculate
 
+<<<<<<< HEAD
 # Prueba de la función con un conjunto de datos
 try:
     print("Ejecutando prueba con datos de entrada...")
@@ -12,3 +11,8 @@ except Exception as e:
 # Ejecutar pruebas unitarias
 print("Ejecutando pruebas unitarias...")
 main(module='test_calculate', exit=False)
+=======
+# Prueba de la función
+resultado = calculate([0,1,2,3,4,5,6,7,8])
+print(resultado)
+>>>>>>> 45d73d6 (Subiendo versión modificada del visualizador de series de tiempo)
